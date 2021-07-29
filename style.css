@@ -1,0 +1,157 @@
+/* Header Styling */
+.header-background{
+    background-color: #264653;
+}
+.header-content{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.header-content2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.header-content3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #E0E0E0;
+}
+.purchase-button{
+    width: 168px;
+    height: 44px;
+    background-color: #E76F51;
+    border-radius: 5px; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.header-bike{
+    width: 552px;
+    height: 447px;
+}
+ /* Featured Bikes  */
+.bike-tittle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
+.bike-tittle1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #E76F51;
+}
+.feature-bike-image{
+    width: 288px;
+    height: 243px;
+    /* filter: grayscale(100%); */
+}
+.feature-bike-image-filter{
+    filter: grayscale(100%);
+}
+
+/* Frequently Asked Questions */
+.users-images{
+    height: 149px;
+    width: 149px;
+}
+.user-article{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+li{
+    list-style: none;
+}
+.fa-star{
+    margin-left: 10px;
+    color:orange;
+}
+.user-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #23A6F0;
+}
+.user-job{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252B42;
+}
+.stars{
+    margin-top: 10px;
+}
+.user-border{
+    width: 322px;
+    /* height: 478.01px; */
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.happy-client-says{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+}
+.happy{
+    color: #0A0826;
+}
+.clients-says{
+    color: #E76F51;
+}
+/* Frequently Asked Questions  */
+.faq-image{
+    height: 423.5px;
+    width: 431.20001220703125px;
+}
+.acc-titile{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #383838;
+}
+.acc-body{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7E848C;
+}
+
+
+/* Media Queries For Mobile  */
+@media only screen and (max-width:688px) {
+    /* Header Section  */
+    .header-bike{
+        height: 260px;
+        width: 321px;
+    }
+    .header-background{
+        min-width: -webkit-fill-available;
+    }
+    /* .header-contents{
+        min-width: 325px;
+    } */
+    
+    /* Featured Bikes  */
+    .mobile-bike{
+        text-align: center;
+    }
+    /* Happy Client  */
+    .user-mobile-alignment{
+        padding-left: 22px;
+    }
+    /* FAQ  */
+    .faq-image{
+        width: 274.2px;
+        height: 269.3px;
+        margin-left: 22px;
+    }
+}
